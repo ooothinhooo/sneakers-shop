@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --> <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    
+    <!--Boostrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- -->
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--fon box icon-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!--localstorage-->
+    <script src="https://unpkg.com/cart-localstorage@1.1.4/dist/cart-localstorage.min.js" type="text/javascript">
+    </script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/feedback.css">
+    <link rel="stylesheet" href="src/css/giohang.css">
+    <title>Giỏ hàng</title>
+</head>
+
+<body onload="showCart()">
+
+    <div class="header-content">
+        <div class="vn">
+            <a href="">
+                <img src="images/vn.png" alt="">
+            </a>
+        </div>
+        <div class="us"><a href="">
+                <img src="images/us.png" alt="">
+            </a></div>
+        <a href="dangky.html">sign up</a>
+        <a href="">help</a>
+
+
+    </div>
+    <!-- header section starts  -->
+    <header class="header">
+
+        <a href="index.html" class="logo"> <i class="fab fa-speaker-deck"></i> sneakers </a>
+
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="index.html"><i class="fas fa-home"></i> home</a>
+            <div class="dropdown">
+                <a href="shop.html"><i class="fas fa-shopping-basket"></i> Shop<i class='bx bx-chevron-down'></i></a>
+                <div class="dropdown-content">
+                    <a href="spnam.html">Men</a>
+                    <a href="spnu.html">Women</a>
+                </div>
+            </div>
+            <a href="tintuc.html"> <i class="far fa-newspaper"></i> News</a>
+            <a href="lienhe.html"><i class="far fa-address-book"></i> contact</a>
+            <a href="feedback.html"><i class="fas fa-comment-medical"></i> feedback</a>
+
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <a href=""><i class="far fa-heart"></i></a>
+            <a href="giohang.html" class="fas fa-shopping-cart"></a>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="dangnhap.html"><i class="fas fa-user"></i></a>
+        </div>
+
+
+
+        </div>
+    </header>
+    <!-- header section ends -->
+    <!-- search form  -->
+    <div class="search-form">
+
+        <div id="close-search" class="fas fa-times"></div>
+
+        <form action="">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+  
+    <!-- home section starts  -->
+    <main> 
+      
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h2><i class='bx bxs-shopping-bags'></i>Cart</h2>
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <tr>
+
+                        <th>id</th>
+                        <th>product</th>
+                        <th>Names</th>
+                        <th>quantity</th>
+                        <th>Size</th>
+                        <th>price</th>
+                        <th></th>
+                    </tr>
+                    <tbody class="addcart">
+
+                    </tbody>
+                    <tfoot>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="text-right" style="font-size: 20px;">Total: <strong class="total" id="tien"></strong></td>
+                        <td></td>
+                        <td></td>
+                    </tfoot>
+                </table>
+
+            </div>
+            <div class="btn-submit">
+                <a href="thanhtoan.html" onClick="xacnhan()">Xác Nhận</a>
+            </div>
+            <br>
+        </div>
+    </main>
+    <footer>
+        <section class="clients">
+
+            <div class="swiper clients-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n1.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"><img src="images/chung/n2.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"><img src="images/chung/n3.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"><img src="images/chung/n4.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n5.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n6.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n7.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n8.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n9.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n10.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n11.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n12.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n13.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n14.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n15.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n16.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n17.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n18.png" alt=""> </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="footer">
+            <div class="btn-top">
+                <a href="">
+                    <img src="images/chung/top.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="credit">
+                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                <a href="#"> <i class="fab fa-twitter"></i> </a>
+                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                <a href="#"> <i class="fab fa-youtube"></i> </a>
+                created by <span>sneakers</span> | all rights reserved!
+            </div>
+        </section>
+        <!-- footer section ends -->
+    </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="src/js/script.js"></script>
+    <script src="src/js/feedback.js"></script>
+    <script src="src/js/shop.js"></script>
+</body>
+
+</html>

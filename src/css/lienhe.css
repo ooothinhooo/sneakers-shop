@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+
+.container-lienhe {
+    margin: 15px 9%;
+}
+
+.container-lienhe h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container-lienhe h2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-lienhe h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-lienhe h4 {
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Poppins';
+}
+
+.container-lienhe h5 {
+    font-size: medium;
+    text-align: center;
+}
+
+.note {
+    text-align: center;
+}
+.container-lienhe .logo {
+    color: rgb(252, 78, 223);
+    font-size: 40px;
+} 

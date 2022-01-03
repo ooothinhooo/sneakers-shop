@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- -->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <!--Boostrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- -->
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--fon box icon-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!--localstorage-->
+    <script src="https://unpkg.com/cart-localstorage@1.1.4/dist/cart-localstorage.min.js" type="text/javascript">
+    </script>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/feedback.css">
+    <link rel="stylesheet" href="src/css/sanpham.css">
+    <title>Sản Phẩm Nam</title>
+</head>
+
+<body>
+    <div class="header-content">
+        <div class="vn">
+            <a href="">
+                <img src="images/vn.png" alt="">
+            </a>
+        </div>
+        <div class="us"><a href="">
+                <img src="images/us.png" alt="">
+            </a></div>
+        <a href="dangky.html">sign up</a>
+        <a href="">help</a>
+    </div>
+    <!-- header section starts  -->
+    <header class="header">
+        <a href="index.html" class="logo"> <i class="fab fa-speaker-deck"></i> sneakers </a>
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="index.html"><i class="fas fa-home"></i> home</a>
+            <div class="dropdown">
+                <a href="shop.html"><i class="fas fa-shopping-basket"></i> Shop<i class='bx bx-chevron-down'></i></a>
+                <div class="dropdown-content">
+                    <a href="spnam.html">Men</a>
+                    <a href="spnu.html">Women</a>
+                </div>
+            </div>
+            <a href="tintuc.html"> <i class="far fa-newspaper"></i> news</a>
+            <a href="lienhe.html"><i class="far fa-address-book"></i> contact</a>
+            <a href="feedback.html"><i class="fas fa-comment-medical"></i> feedback</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="heart.html"><i class="far fa-heart"></i></a>
+            <a href="giohang.html" class="fas fa-shopping-cart"></a>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="dangnhap.html"><i class="fas fa-user"></i></a>
+        </div>
+        </div>
+    </header>
+    <!-- header section ends -->
+    <!-- search form  -->
+    <div class="search-form">
+        <div id="close-search" class="fas fa-times"></div>
+        <form action="">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+    <!-- home section starts  -->
+    <main>
+        <div class="content-container">
+            <div class="content">
+                <h2>sneakers nam</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n1.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Adidas Yezzy
+                        </div>
+                        <div class="cart_price">$220</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 1, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n1.png',})">Buy
+                                    now</button>
+                            </a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 1, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n1.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n2.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Adidas Yezzy
+                        </div>
+                        <div class="cart_price">$220</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 2, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n2.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 2, name: 'Adidas Yezzy', price: 130, photo: 'images/sanpham/giaynam/n2.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n3.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Adidas Yezzy
+                        </div>
+                        <div class="cart_price">$220</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 3, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n3.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 3, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n3.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n4.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Adidas Yezzy
+                        </div>
+                        <div class="cart_price">$220</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 4, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n4.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 4, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n4.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n5.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Adidas Yezzy
+                        </div>
+                        <div class="cart_price">$220</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 5, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n5.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 5, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n5.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n6.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Adidas Yezzy
+                        </div>
+                        <div class="cart_price">$220</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 6, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n6.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 6, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n6.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+            </div>
+        </div>
+        <!---=========================================-->
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n7.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Adidas Superturf
+                        </div>
+                        <div class="cart_price">$90</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 7, name: 'Adidas Superturf', price: 90, photo: 'images/sanpham/giaynam/n7.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 7, name: 'Adidas Superturf', price: 90, photo: 'images/sanpham/giaynam/n7.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n8.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Adidas Yezzy
+                        </div>
+                        <div class="cart_price">$220</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 8, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n8.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 8, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n8.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n9.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Adidas Yezzy
+                        </div>
+                        <div class="cart_price">$220</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 9, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n9.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 9, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n9.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+            </div>
+        </div>
+        <!---=========================================-->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n10.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Adidas Yezzy
+                        </div>
+                        <div class="cart_price">$220</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 10, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n10.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 10, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n10.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n11.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Adidas Yezzy
+                        </div>
+                        <div class="cart_price">$220</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 11, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n11.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 11, name: 'Adidas Yezzy', price: 220, photo: 'images/sanpham/giaynam/n11.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham//giaynam/n12.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Adidas Forum
+                        </div>
+                        <div class="cart_price">$90</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 12, name: 'Adidas Forum', price: 90, photo: 'images/sanpham/giaynam/n12.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 12, name: 'Adidas Forum', price: 90, photo: 'images/sanpham/giaynam/n12.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n13.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Nike Kyrie
+                        </div>
+                        <div class="cart_price">$100</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 13, name: 'Nike Kyrie', price: 100, photo: 'images/sanpham/giaynam/n13.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 13, name: 'Nike Kyrie', price: 100, photo: 'images/sanpham/giaynam/n13.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n14.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Nike Hyperdunk
+                        </div>
+                        <div class="cart_price">$100</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 14, name: 'Nike Hyperdunk', price: 100, photo: 'images/sanpham/giaynam/n14.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 14, name: 'Nike Hyperdunk', price: 100, photo: 'images/sanpham/giaynam/n14.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n15.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Nike Kyrie
+                        </div>
+                        <div class="cart_price">$100</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 15, name: 'Nike Kyrie', price: 100, photo: 'images/sanpham/giaynam/n15.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 15, name: 'Nike Kyrie', price: 100, photo: 'images/sanpham/giaynam/n15.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n16.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Nike Jordan
+                        </div>
+                        <div class="cart_price">$110</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 16, name: 'Nike Jordan', price: 110, photo: 'images/sanpham/giaynam/n16.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 16, name: 'Nike Jordan', price: 110, photo: 'images/sanpham/giaynam/n16.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n17.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Nike Jordan
+                        </div>
+                        <div class="cart_price">$110</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 17, name: 'Nike Jordan', price: 110, photo: 'images/sanpham/giaynam/n17.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 17, name: 'Nike Jordan', price: 110, photo: 'images/sanpham/giaynam/n17.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+                <div class="col">
+                    <!--cart test-->
+                    <div class="cart">
+                        <div class="cart_heart"><i class='bx bxs-heart'></i></i></div>
+                        <div class="cart_cart">
+                            <a href="giohang.html"><i class='bx bxs-cart-alt'></i></a>
+                        </div>
+                        <div class="cart_img">
+                            <img src="images/sanpham/giaynam/n18.png" alt="">
+                        </div>
+                        <div class="cart_title">
+                            Nike Jordan
+                        </div>
+                        <div class="cart_price">$110</div>
+                        <div class="cart_size">
+                            <h3>Size :</h3>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                        </div>
+                        <div class="cart_color">
+                            <h3>Color :</h3>
+                            <span class="cart_color_red"></span>
+                            <span class="cart_color_white"></span>
+                            <span class="cart_color_black"></span>
+                        </div>
+                        <div class="cart_action">
+                            <a href="giohang.html">
+                                <button class="buy"
+                                    onClick="cartLS.add({id: 18, name: 'Nike Jordan', price: 110, photo: 'images/sanpham/giaynam/n18.png',})">Buy
+                                    now</button></a>
+                            <button class="add"
+                                onClick="cartLS.add({id: 18, name: 'Nike Jordan', price: 110, photo: 'images/sanpham/giaynam/n18.png',})">Add
+                                cart</button>
+                        </div>
+                    </div>
+                    <!--end cart-->
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="clients">
+            <div class="swiper clients-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n1.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"><img src="images/chung/n2.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"><img src="images/chung/n3.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"><img src="images/chung/n4.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n5.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n6.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n7.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n8.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n9.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n10.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n11.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n12.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n13.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n14.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n15.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n16.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n17.png" alt=""> </a>
+                    </div>
+                    <div class="swiper-slide silde"> <a href="shop.html"> <img src="images/chung/n18.png" alt=""> </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="btn-top">
+                <a href="">
+                    <img src="images/chung/top.jpg" alt="">
+                </a>
+            </div>
+            <div class="credit">created by <span>sneakers</span> | all rights reserved!</div>
+        </section>
+        <!-- footer section ends -->
+    </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="src/js/script.js"></script>
+    <script src="src/js/feedback.js"></script>
+</body>
+
+</html>

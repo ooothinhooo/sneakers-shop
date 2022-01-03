@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.total {
+    font-size: 30px;
+}
+
+tr th {
+    font-size: 20px;
+    text-align: center;
+}
+
+tr td img {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    color: rgba(250, 116, 134, 0.658);
+}
+
+h4 {
+    font-size: 25px;
+
+}
+
+tr td {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.btn-button {
+    margin: 5px;
+    padding: 15px 15px 5px 15px;
+    background-color: rgb(158, 244, 250);
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: darkslategray;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.btn-button:hover {
+    background-color: rgb(123, 187, 247);
+
+}
+
+.btn-input {
+    font-size: 25px;
+    background-color: rgb(158, 244, 250);
+    border-radius: 15px;
+    padding: 0%;
+}
+
+.btn-submit {
+    font-family: "Poppins";
+    font-size: 35px;
+    border-radius: 15px;
+    background-color: rgb(182, 238, 240);
+    padding: 15px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.btn-submit a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-submit:hover {
+    font-size: 40px;
+    background: cornsilk;
+}
+main{
+    margin-top: 50px;
+}
